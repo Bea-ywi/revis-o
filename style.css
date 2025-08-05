@@ -1,1 +1,49 @@
-/* Add styles here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color:dimgray
+}
+
+body > div{
+    background-color: white;
+    max-width: 736px;
+    margin-inline: auto;
+    margin-block: 64px;
+    padding: 40px;
+    border-radius: 24px;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #b91c1c;
+    font-size: 24px;
+}
+
+h1{
+    font-size: 35px;
+
+}
+
+.generos ul {
+    padding-left: 20px;
+    list-style-type: circle;
+    
+}
+
+.lista-filmes ol {
+    padding-left: 20px;
+}
